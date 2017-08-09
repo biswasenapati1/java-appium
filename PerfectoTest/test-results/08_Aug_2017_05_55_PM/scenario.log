@@ -1,0 +1,26 @@
+17:55:54 scenario.file.loc[Ljava.lang.String;@33f88ab
+17:55:54 loading BDD file: D:\Automated Testing\JavaSelenium and Appium\PerfectoTest\.\scenarios\suite1.bdd
+17:55:54 total test found: 1
+17:55:54 
+
+Executing scenario: SampleTest - Sample Test Scenario
+17:55:54 pkg: com.qmetry.qaf.automation.step
+17:55:54 pkg: com.perfecto.sample.steps
+17:55:54 Found duplicate step to load [] with [lower] prority then []
+17:55:54 Invoking Teststep: Given i open application
+17:56:14 Completed Teststep: Given i open application
+17:56:14 Invoking Teststep: When user enter preoduct name to search box
+17:56:24 Completed Teststep: When user enter preoduct name to search box
+17:56:24 Invoking Teststep: And user able to see all the list of mobiles
+17:56:34 Completed Teststep: And user able to see all the list of mobiles
+17:56:34 Invoking Teststep: And user select apple I phone gold
+17:56:40 Completed Teststep: And user select apple I phone gold
+17:56:40 Invoking Teststep: And user Add the product to the cart
+17:56:46 Completed Teststep: And user Add the product to the cart
+17:56:46 Invoking Teststep: When user remove the product
+17:56:58 Completed Teststep: When user remove the product
+17:56:58 Invoking Teststep: Then verify the cart is empty and product remove sucessfully
+17:57:00 Completed Teststep: Then verify the cart is empty and product remove sucessfully
+17:57:00 Invoking Teststep: And user close Application sucessfully
+17:57:04 Completed Teststep: And user close Application sucessfully
+17:57:04 Competed scenario: SampleTest with status SUCESS

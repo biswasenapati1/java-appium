@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given i open application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user enter preoduct name to search box</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>page open <a href="../img/SampleTest_sqj1rcdg803v34818.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user able to see all the list of mobiles</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>4 <a href="../img/SampleTest_19gdhpbdcgi9u34819.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Apple iPhone 6 (Space Grey, 32 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 7 (Black, 32 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 7 (PRODUCT) (Red, 256 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 6s (Gold, 32 GB)</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user select apple I phone gold</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Mobile selects sucessfully <a href="../img/SampleTest_xrfl6wzxdcy734820.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user Add the product to the cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user remove the product</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>remove btn click sucessfully <a href="../img/SampleTest_7p4xz3qq3w7134821.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify the cart is empty and product remove sucessfully</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected verify cart is empty present : Actual verify cart is empty present <a href="../img/SampleTest_elkfqj3mgia334822.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user close Application sucessfully</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="89350" started-at="2017-08-08T12:25:54Z" finished-at="2017-08-08T12:27:23Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="SampleTest" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="89350" started-at="2017-08-08T12:25:54Z" finished-at="2017-08-08T12:27:23Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupSuit" is-config="true" duration-ms="16" started-at="2017-08-08T17:55:54Z" finished-at="2017-08-08T17:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57d5872c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="SampleTest" duration-ms="70017" started-at="2017-08-08T17:55:54Z" description="Sample Test Scenario" finished-at="2017-08-08T17:57:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given i open application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user enter preoduct name to search box</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>page open <a href="../img/SampleTest_sqj1rcdg803v34818.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user able to see all the list of mobiles</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>4 <a href="../img/SampleTest_19gdhpbdcgi9u34819.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Apple iPhone 6 (Space Grey, 32 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 7 (Black, 32 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 7 (PRODUCT) (Red, 256 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 6s (Gold, 32 GB)</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user select apple I phone gold</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Mobile selects sucessfully <a href="../img/SampleTest_xrfl6wzxdcy734820.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user Add the product to the cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user remove the product</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>remove btn click sucessfully <a href="../img/SampleTest_7p4xz3qq3w7134821.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify the cart is empty and product remove sucessfully</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected verify cart is empty present : Actual verify cart is empty present <a href="../img/SampleTest_elkfqj3mgia334822.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user close Application sucessfully</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SampleTest -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupTest" is-config="true" duration-ms="0" started-at="2017-08-08T17:55:54Z" finished-at="2017-08-08T17:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57d5872c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setup" is-config="true" duration-ms="0" started-at="2017-08-08T17:55:54Z" finished-at="2017-08-08T17:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57d5872c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="setupMethod" is-config="true" duration-ms="0" started-at="2017-08-08T17:55:54Z" finished-at="2017-08-08T17:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@57d5872c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterMethod" is-config="true" duration-ms="15" started-at="2017-08-08T17:57:04Z" finished-at="2017-08-08T17:57:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57d5872c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=SampleTest status=SUCCESS method=scenarios.suite1.bdd.SampleTest()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given i open application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user enter preoduct name to search box</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>page open <a href="../img/SampleTest_sqj1rcdg803v34818.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user able to see all the list of mobiles</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>4 <a href="../img/SampleTest_19gdhpbdcgi9u34819.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Apple iPhone 6 (Space Grey, 32 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 7 (Black, 32 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 7 (PRODUCT) (Red, 256 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 6s (Gold, 32 GB)</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user select apple I phone gold</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Mobile selects sucessfully <a href="../img/SampleTest_xrfl6wzxdcy734820.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user Add the product to the cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user remove the product</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>remove btn click sucessfully <a href="../img/SampleTest_7p4xz3qq3w7134821.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verify the cart is empty and product remove sucessfully</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected verify cart is empty present : Actual verify cart is empty present <a href="../img/SampleTest_elkfqj3mgia334822.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user close Application sucessfully</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterTest" is-config="true" duration-ms="19286" started-at="2017-08-08T17:57:04Z" finished-at="2017-08-08T17:57:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57d5872c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterClass" is-config="true" duration-ms="0" started-at="2017-08-08T17:57:04Z" finished-at="2017-08-08T17:57:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57d5872c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="SampleTest" name="afterSuit" is-config="true" duration-ms="3" started-at="2017-08-08T17:57:24Z" finished-at="2017-08-08T17:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57d5872c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

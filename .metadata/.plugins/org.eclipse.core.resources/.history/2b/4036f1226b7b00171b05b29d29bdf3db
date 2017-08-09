@@ -1,0 +1,9 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+	Given i open application
+	When user enter preoduct name to search box
+	
+END

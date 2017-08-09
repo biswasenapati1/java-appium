@@ -1,0 +1,178 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "enter_preoduct_name_to_search_box",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 755
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 617
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 885
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 613
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"]",
+            "{\"id\":\"2\",\"value\":[\"iphone\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1425
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 705
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"]",
+            "{\"id\":\"3\",\"value\":[{}]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1029
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "list_of_mobiles",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.FrameLayout/descendant::android.widget.TextView[1], using=xpath}"
+          ],
+          "result": "[id: 4, id: 5]",
+          "subLogs": [],
+          "duration": 680
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.FrameLayout/descendant::android.widget.TextView[1], using=xpath}"
+          ],
+          "result": "[id: 6, id: 7]",
+          "subLogs": [],
+          "duration": 1108
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.FrameLayout/descendant::android.widget.TextView[1]",
+            "{\"id\":\"6\"}"
+          ],
+          "result": "getElementText:",
+          "subLogs": [],
+          "duration": 719
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.FrameLayout/descendant::android.widget.TextView[1], using=xpath}"
+          ],
+          "result": "[id: 8, id: 9]",
+          "subLogs": [],
+          "duration": 817
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.FrameLayout/descendant::android.widget.TextView[1]",
+            "{\"id\":\"9\"}"
+          ],
+          "result": "getElementText: Search for Products, Brands and More",
+          "subLogs": [],
+          "duration": 816
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i open application",
+      "type": "TestStepPass",
+      "duration": 17659,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user enter preoduct name to search box",
+      "type": "TestStepPass",
+      "duration": 14075,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "page open",
+          "type": "Info",
+          "screenshot": "img/SampleTest_igsxpwxuw5hq30855.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user able to see all the list of mobiles",
+      "type": "TestStepPass",
+      "duration": 4157,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

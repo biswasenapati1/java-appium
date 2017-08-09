@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.qmetry.qaf.automation.step.QAFTestStepProvider"/>
+<fullyQualifiedTypeName name="com.qmetry.qaf.automation.ui.WebDriverTestBase"/>
+<fullyQualifiedTypeName name="com.qmetry.qaf.automation.step.QAFTestStep"/>
+<fullyQualifiedTypeName name="javax.security.auth.login.Configuration"/>
+<fullyQualifiedTypeName name="com.perfecto.sample.utils.PerfectoUtilities"/>
+<fullyQualifiedTypeName name="com.qmetry.qaf.automation.core.ConfigurationManager"/>
+<fullyQualifiedTypeName name="com.perfecto.sample.test.AmazonhomeTestPage"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.interactions.Action"/>
+<fullyQualifiedTypeName name="com.qmetry.qaf.automation.util.Reporter"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+<fullyQualifiedTypeName name="com.perfecto.sample.test.FlipkartHomeTestPage"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.testng.Reporter"/>
+<fullyQualifiedTypeName name="com.perfecto.sample.utils.DriverUtils"/>
+<fullyQualifiedTypeName name="com.qmetry.qaf.automation.core.QAFTestBase"/>
+</qualifiedTypeNameHistroy>

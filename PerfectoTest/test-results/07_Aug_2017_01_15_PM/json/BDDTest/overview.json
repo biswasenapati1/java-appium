@@ -1,0 +1,77 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appPackage": "com.amazon.mShop.android",
+      "deviceName": "632E9899",
+      "password": "Infostretch1",
+      "autoLaunch": true,
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "platformName": "Android",
+      "user": "is_user2@infostretch.com",
+      "cssSelectorsEnabled": true,
+      "applicationName": "Amazon",
+      "autoAcceptAlerts": true
+    },
+    "browser-actual-capabilities": {
+      "appPackage": "com.amazon.mShop.android",
+      "reportPdfUrl": "https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743",
+      "deviceName": "632E9899",
+      "platform": "ANY",
+      "password": "",
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "host": "partners.perfectomobile.com",
+      "singleTestReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743",
+      "takesScreenshot": "true",
+      "javascriptEnabled": "true",
+      "platformName": "Android",
+      "applicationName": "Amazon",
+      "rotatable": "true",
+      "testGridReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743",
+      "entityType": "appium_driver",
+      "serverConnector": "",
+      "securityToken": "",
+      "executionId": "is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586",
+      "webdriver.remote.sessionid": "ccbb9c7f-0ec6-48e2-8372-75b15743e629",
+      "autoLaunch": "true",
+      "locationContextEnabled": "true",
+      "scriptName": "RemoteWebDriver",
+      "reportKey": "is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586",
+      "windTunnelReportUrl": "https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743",
+      "user": "",
+      "cssSelectorsEnabled": "true",
+      "autoAcceptAlerts": "true"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "ICPL11493",
+      "os.name": "Windows 8",
+      "user.name": "biswa.senapati",
+      "os.version": "6.2"
+    }
+  },
+  "startTime": 1502091993973,
+  "endTime": 1502092013199
+}

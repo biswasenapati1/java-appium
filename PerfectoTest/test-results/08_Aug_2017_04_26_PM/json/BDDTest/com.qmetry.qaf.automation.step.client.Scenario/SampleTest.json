@@ -1,0 +1,450 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "enter_preoduct_name_to_search_box",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 938
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 718
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"]",
+            "{\"id\":\"1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1204
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class='android.widget.EditText'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 1313
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.xpath: //*[@class='android.widget.EditText']",
+            "{\"id\":\"2\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 781
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class='android.widget.EditText'], using=xpath}"
+          ],
+          "result": "id: 3",
+          "subLogs": [],
+          "duration": 594
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@class='android.widget.EditText']",
+            "{\"id\":\"3\",\"value\":[\"iphone\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 2187
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/incorrect_login_text\" and @text=\"iphone\"], using=xpath}"
+          ],
+          "result": "id: 4",
+          "subLogs": [],
+          "duration": 719
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.flipkart.android:id/incorrect_login_text\" and @text=\"iphone\"]",
+            "{\"id\":\"4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 547
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "list_of_mobiles",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView, using=xpath}"
+          ],
+          "result": "[id: 5, id: 6, id: 7, id: 8]",
+          "subLogs": [],
+          "duration": 1031
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView, using=xpath}"
+          ],
+          "result": "[id: 9, id: 10, id: 11, id: 12]",
+          "subLogs": [],
+          "duration": 516
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView, using=xpath}"
+          ],
+          "result": "[id: 13, id: 14, id: 15, id: 16]",
+          "subLogs": [],
+          "duration": 641
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView",
+            "{\"id\":\"13\"}"
+          ],
+          "result": "getElementText:Apple iPhone 6 (Space Grey, 32 GB)",
+          "subLogs": [],
+          "duration": 609
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView, using=xpath}"
+          ],
+          "result": "[id: 17, id: 18, id: 19, id: 20]",
+          "subLogs": [],
+          "duration": 516
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView",
+            "{\"id\":\"18\"}"
+          ],
+          "result": "getElementText:Apple iPhone 7 (Black, 32 GB)",
+          "subLogs": [],
+          "duration": 625
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView, using=xpath}"
+          ],
+          "result": "[id: 21, id: 22, id: 23, id: 24]",
+          "subLogs": [],
+          "duration": 516
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView",
+            "{\"id\":\"23\"}"
+          ],
+          "result": "getElementText:Apple iPhone 7 Plus (Gold, 128 GB)",
+          "subLogs": [],
+          "duration": 625
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView, using=xpath}"
+          ],
+          "result": "[id: 25, id: 26, id: 27, id: 28]",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView",
+            "{\"id\":\"28\"}"
+          ],
+          "result": "getElementText:Apple iPhone 7 (Jet Black, 128 GB)",
+          "subLogs": [],
+          "duration": 610
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "user_select_apple_I_phone_gold",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView, using=xpath}"
+          ],
+          "result": "[id: 29, id: 30, id: 31, id: 32]",
+          "subLogs": [],
+          "duration": 703
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView",
+            "{\"id\":\"32\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 954
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "user_Add_the_product_to_the_cart",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/product_addtocart_1\"], using=xpath}"
+          ],
+          "result": "id: 33",
+          "subLogs": [],
+          "duration": 1453
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@resource-id=\"com.flipkart.android:id/product_addtocart_1\"]",
+            "{\"id\":\"33\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 751
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verify_product_is_added_to_the_cart",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@content-desc=\"Apple iPhone 7 Plus (Gold, 32 GB)\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1093
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "When user remove the product",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verify the cart is empty and product remove sucessfully",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user close Application sucessfully",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i open application",
+      "type": "TestStepPass",
+      "duration": 19311,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user enter preoduct name to search box",
+      "type": "TestStepPass",
+      "duration": 11392,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "page open",
+          "type": "Info",
+          "screenshot": "../img/SampleTest_4yemie4zqum855080.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user able to see all the list of mobiles",
+      "type": "TestStepPass",
+      "duration": 9672,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "4",
+          "type": "Info",
+          "screenshot": "../img/SampleTest_126iiy8ufkynw55081.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Apple iPhone 6 (Space Grey, 32 GB)",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Apple iPhone 7 (Black, 32 GB)",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Apple iPhone 7 Plus (Gold, 128 GB)",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Apple iPhone 7 (Jet Black, 128 GB)",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user select apple I phone gold",
+      "type": "TestStepPass",
+      "duration": 7033,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Mobile selects sucessfully",
+          "type": "Info",
+          "screenshot": "../img/SampleTest_quws5tnv7x3255082.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user Add the product to the cart",
+      "type": "TestStepPass",
+      "duration": 2204,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify product is added to the cart",
+      "type": "TestStepFail",
+      "screenshot": "../img/SampleTest_p00kdql45k1255083.png",
+      "duration": 1093,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "product is not display in the cart",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user remove the product",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verify the cart is empty and product remove sucessfully",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user close Application sucessfully",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.AssertionError: product is not display in the cart\r\n\tat .Then verify product is added to the cart(scenarios/suite1.bdd:11)\r\n\tat com.qmetry.qaf.automation.core.QAFTestBase.fail(QAFTestBase.java:256)\r\n\tat com.perfecto.sample.steps.StepsBackLog.verify_product_is_added_to_the_cart_aroundBody10(StepsBackLog.java:83)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.perfecto.sample.steps.StepsBackLog.verify_product_is_added_to_the_cart(StepsBackLog.java:75)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

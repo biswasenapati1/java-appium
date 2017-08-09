@@ -1,0 +1,7 @@
+driver.capabilities.platformName=android
+driver.capabilities.applicationName=Amazon
+driver.capabilities.appPackage=com.amazon.mShop.android
+driver.capabilities.driverClass=io.appium.java_client.android.AndroidDriver
+#driver.capabilities.appPath = PUBLIC:trainingperfecto/Resigned_FieldService.apk
+driver.additional.capabilities = {'autoAcceptAlerts':true,'autoLaunch':false}
+driver.additional.name=0715F7752C4B3038

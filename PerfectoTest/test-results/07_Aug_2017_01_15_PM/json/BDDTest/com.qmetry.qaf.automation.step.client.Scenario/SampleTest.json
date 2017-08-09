@@ -1,0 +1,77 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "enter_preoduct_name_to_search_box",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@class='android.widget.EditText'], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 1859
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class='android.widget.EditText'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 1627
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@class='android.widget.EditText']",
+            "{\"id\":\"1\",\"value\":[\"apple iphone\",{}]}"
+          ],
+          "result": "Failed to execute command application.element set: setElementValue command failed. Reason: handset server: element not found\nCommand duration or timeout: 3.58 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11493', ip: '10.11.31.109', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.amazon.mShop.android, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, deviceName=632E9899, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=Amazon, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586, webdriver.remote.sessionid=ccbb9c7f-0ec6-48e2-8372-75b15743e629, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: ccbb9c7f-0ec6-48e2-8372-75b15743e629",
+          "subLogs": [],
+          "duration": 3588
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i open application",
+      "type": "TestStepPass",
+      "duration": 16036,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user enter preoduct name to search box",
+      "type": "TestStepFail",
+      "screenshot": "../img/SampleTest_1xloeen05qniq3036.png",
+      "duration": 7110,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Failed to execute command application.element set: setElementValue command failed. Reason: handset server: element not found\nCommand duration or timeout: 3.58 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11493', ip: '10.11.31.109', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.amazon.mShop.android, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, deviceName=632E9899, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=Amazon, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586, webdriver.remote.sessionid=ccbb9c7f-0ec6-48e2-8372-75b15743e629, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: ccbb9c7f-0ec6-48e2-8372-75b15743e629",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Failed to execute command application.element set: setElementValue command failed. Reason: handset server: element not found\nCommand duration or timeout: 3.58 seconds\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11493', ip: '10.11.31.109', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.amazon.mShop.android, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, deviceName=632E9899, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=Amazon, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586, webdriver.remote.sessionid=ccbb9c7f-0ec6-48e2-8372-75b15743e629, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_46_08_6586&_timestamp[0]=1502091968743, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: ccbb9c7f-0ec6-48e2-8372-75b15743e629\r\n\tat .When user enter preoduct name to search box(scenarios/suite1.bdd:7)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:122)\r\n\tat com.perfecto.sample.steps.StepsBackLog.enter_preoduct_name_to_search_box_aroundBody2(StepsBackLog.java:35)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.perfecto.sample.steps.StepsBackLog.enter_preoduct_name_to_search_box(StepsBackLog.java:33)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\nCaused by: java.lang.RuntimeException: Failed to execute command application.element set: setElementValue command failed. Reason: handset server: element not found\r\n\tat com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)\r\n\tat com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:525)\r\n\tat com.perfectomobile.selenium.MobileApplication.processResponse(MobileApplication.java:54)\r\n\tat com.perfectomobile.selenium.MobileElement.processResponse(MobileElement.java:82)\r\n\tat com.perfectomobile.selenium.MobileEntity.executeCommand(MobileEntity.java:57)\r\n\tat com.perfectomobile.selenium.MobileElement.sendKeys(MobileElement.java:187)\r\n\tat com.perfectomobile.selenium.MobileElement.sendKeys(MobileElement.java:153)\r\n\tat sun.reflect.GeneratedMethodAccessor4646.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:334)\r\n\tat com.sun.proxy.$Proxy295.sendKeys(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:357)\r\n\tat sun.reflect.GeneratedMethodAccessor4646.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)\r\n\tat com.sun.proxy.$Proxy296.sendKeys(Unknown Source)\r\n\tat org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:50)\r\n\tat org.openqa.selenium.remote.server.handler.SendKeys.call(SendKeys.java:29)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:188)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n"
+}

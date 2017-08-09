@@ -1,0 +1,65 @@
+/**
+ * 
+ */
+package com.perfecto.sample.steps;
+
+import org.openqa.selenium.Keys;
+import com.perfecto.sample.test.flipkartHomeTestPage;
+import com.perfecto.sample.utils.DriverUtils;
+import com.perfecto.sample.utils.PerfectoUtilities;
+import com.qmetry.qaf.automation.core.ConfigurationManager;
+import com.qmetry.qaf.automation.step.QAFTestStep;
+import com.qmetry.qaf.automation.util.Reporter;
+
+/**
+ * @author biswa.senapati
+ *
+ */
+public class StepsBackLog extends flipkartHomeTestPage {
+
+	/**
+	 * Auto-generated code snippet by QMetry Automation Framework.
+	 */
+	@QAFTestStep(description = "i open application")
+	public void iOpenApplication() {
+		// TODO: remove NotYetImplementedException and call test steps
+		PerfectoUtilities.openApplication(ConfigurationManager.getBundle().getString("app.identifier"));
+	}
+
+	
+	@QAFTestStep(description="user enter preoduct name to search box")
+	public void enter_preoduct_name_to_search_box(){
+		getSearchBox().waitForPresent();
+		getSearchBox().click();
+		getSearchBoxEnter().clear();
+		//getSearchBoxEnter().click();
+		getSearchBoxEnter().sendKeys("iphone");
+		getSearchClick().click();
+		//getSearchBoxEnter().sendKeys(Keys.ENTER);
+		Reporter.logWithScreenShot("page open");
+		waitForPageToLoad();
+		
+		
+	}
+
+	
+	@QAFTestStep(description="user able to see all the list of mobiles")
+	public void list_of_mobiles(){
+		waitForPageToLoad();
+		getListOfMobiles().get(0).waitForPresent();
+		int size=getListOfMobiles().size();
+		Reporter.logWithScreenShot(""+size);
+		for(int i=0;i<size;i++)
+		{
+			
+			Reporter.log(getListOfMobiles().get(i).getText());
+		}
+	}
+
+	@QAFTestStep(description="user select apple I phone gold")
+	public void user_select_apple_I_phone_gold(){
+		DriverUtils.getAppiumDriver().swipe(50, 800, 50, 50, 3000);
+		getListOfMobiles().get(4).click();
+	}
+
+}

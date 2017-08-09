@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PerfectoTest/resources/android/env.properities&apos; to &apos;env.properties&apos;" description="Rename resource &apos;env.properities&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="resources/android/env.properities" name="env.properties" stamp="1501852331727" updateReferences="true"/>
+</session>

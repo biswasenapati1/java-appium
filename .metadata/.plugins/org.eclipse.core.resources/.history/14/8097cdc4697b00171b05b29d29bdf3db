@@ -1,0 +1,2 @@
+search.box = {\"locator\":\"xpath=//*[@resource-id=\\\"com.flipkart.android:id/search_widget_textbox\\\"]\",\"desc\":\"search item\"}
+list.of.mobiles = {\"locator\":\"xpath=//android.widget.FrameLayout/descendant::android.widget.TextView[1]\"}

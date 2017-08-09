@@ -1,0 +1,9 @@
+search.box = {\"locator\":\"xpath=//*[@resource-id=\\\"com.flipkart.android:id/search_widget_textbox\\\"]\",\"desc\":\"search item\"}
+list.of.mobiles = {\"locator\":\"xpath=//android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView\",\"desc\":\"list of mobiles\"}
+search.box.enter = {\"locator\":\"xpath=//*[@class='android.widget.EditText']\",\"desc\":\"search box for enter\"}
+search.click = {\"locator\":\"xpath=//*[@resource-id=\\\"com.flipkart.android:id/incorrect_login_text\\\" and @text=\\\"iphone\\\"]\",\"desc\":\"search perticular product\"}
+add.yo.cart = {\"locator\":\"xpath=//*[@resource-id=\\\"com.flipkart.android:id/product_addtocart_1\\\"]\",\"desc\":\"add product to the cart\"}
+product.details = {\"locator\":\"xpath=//*[@resource-id=\\\"com.flipkart.android:id/title_action_bar\\\"]\",\"desc\":\"product details\"}
+remove.product = {\"locator\":\"xpath=//*[@content-desc=\\\"REMOVE\\\"]\",\"desc\":\"remove product from cart\"}
+remove.popup = {\"locator\":\"xpath=//*[@content-desc=\\\"REMOVE\\\" and @class=\\\"android.widget.Button\\\"]\",\"desc\":\"click on remove popup\"}
+verify.cart.empty = {\"locator\":\"xpath=//*[@content-desc=\\\"Your Cart is empty!\\\"]\",\"desc\":\"verify cart is empty\"}

@@ -1,0 +1,7 @@
+driver.capabilities.platformName=Android
+driver.capabilities.applicationName=Flipkart
+driver.capabilities.appPackage=com.flipkart.android
+driver.capabilities.driverClass=io.appium.java_client.android.AndroidDriver
+#driver.capabilities.appPath = PUBLIC:trainingperfecto/Resigned_FieldService.apk
+driver.capabilities.deviceName=9EB54791
+driver.additional.capabilities= {'autoAcceptAlerts':true,'autoLaunch':true}

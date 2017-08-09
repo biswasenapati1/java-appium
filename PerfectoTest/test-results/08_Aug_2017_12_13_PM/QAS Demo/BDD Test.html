@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>TestNG:  BDD Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BDD Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 08 12:14:01 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>64 seconds (64196 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qmetry.qaf.automation.step.client.Scenario.SampleTest()'><b>SampleTest</b><br>Test class: com.qmetry.qaf.automation.step.client.Scenario (SampleTest)<br>Test method: Sample Test Scenario<br/>
+<a href="#Output-2052457859" onClick='toggleBox("Output-2052457859", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2052457859" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2052457859">
+<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given i open application</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user enter preoduct name to search box</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>page open <a href="../img/SampleTest_ebnxi26d3jt020258.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user able to see all the list of mobiles</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>4 <a href="../img/SampleTest_1bwt9z013k39a20259.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Apple iPhone 6 (Space Grey, 32 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 7 (Black, 32 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 5s (Silver, 16 GB)</div><div  class="info"><span class="info-label">I </span>Apple iPhone 7 (Gold, 32 GB)</div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>And user select apple I phone gold <a href="../img/SampleTest_12eh5y1umlql920260.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Failed to execute command touch swipe: Error parsing function 'touch swipe', 'duration' must be within range: 0 - 10, actual value was '2000'.
+Command duration or timeout: 250 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11493', ip: '10.11.31.109', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&_timestamp[0]=1502174642967, deviceName=3219D3B1, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&_timestamp[0]=1502174642967, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=Flipkart, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&_timestamp[0]=1502174642967, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034, webdriver.remote.sessionid=87a2e045-dc9c-4baa-8d9d-f400b5a22b1f, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&_timestamp[0]=1502174642967, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]
+Session ID: 87a2e045-dc9c-4baa-8d9d-f400b5a22b1f</div></div></div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to execute command touch swipe: Error parsing function &apos;touch swipe&apos;, &apos;duration&apos; must be within range: 0 - 10, actual value was &apos;2000&apos;.
+Command duration or timeout: 250 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11493&apos;, ip: &apos;10.11.31.109&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&amp;_timestamp[0]=1502174642967, deviceName=3219D3B1, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&amp;_timestamp[0]=1502174642967, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=Flipkart, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&amp;_timestamp[0]=1502174642967, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034, webdriver.remote.sessionid=87a2e045-dc9c-4baa-8d9d-f400b5a22b1f, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&amp;_timestamp[0]=1502174642967, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]
+Session ID: 87a2e045-dc9c-4baa-8d9d-f400b5a22b1f
+	at .And user select apple I phone gold(scenarios/suite1.bdd:9)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:577)
+	at com.perfecto.sample.utils.PerfectoUtilities.swipe(PerfectoUtilities.java:263)
+	at com.perfecto.sample.steps.StepsBackLog.user_select_apple_I_phone_gold_aroundBody6(StepsBackLog.java:62)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.perfecto.sample.steps.StepsBackLog.user_select_apple_I_phone_gold(StepsBackLog.java:59)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+Caused by: java.lang.RuntimeException: Failed to execute command touch swipe: Error parsing function &apos;touch swipe&apos;, &apos;duration&apos; must be within range: 0 - 10, actual value was &apos;2000&apos;.
+	at com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)
+	at com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:525)
+	at com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:68)
+	at com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:61)
+	at com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:596)
+	at com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:55)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:111)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:71)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:40)
+	at com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:188)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2052457859", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2052457859'><pre>org.openqa.selenium.WebDriverException: Failed to execute command touch swipe: Error parsing function &apos;touch swipe&apos;, &apos;duration&apos; must be within range: 0 - 10, actual value was &apos;2000&apos;.
+Command duration or timeout: 250 milliseconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL11493&apos;, ip: &apos;10.11.31.109&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&amp;_timestamp[0]=1502174642967, deviceName=3219D3B1, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&amp;_timestamp[0]=1502174642967, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=Flipkart, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&amp;_timestamp[0]=1502174642967, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034, webdriver.remote.sessionid=87a2e045-dc9c-4baa-8d9d-f400b5a22b1f, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-08_06_44_02_8034&amp;_timestamp[0]=1502174642967, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]
+Session ID: 87a2e045-dc9c-4baa-8d9d-f400b5a22b1f
+	at .And user select apple I phone gold(scenarios/suite1.bdd:9)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:577)
+	at com.perfecto.sample.utils.PerfectoUtilities.swipe(PerfectoUtilities.java:263)
+	at com.perfecto.sample.steps.StepsBackLog.user_select_apple_I_phone_gold_aroundBody6(StepsBackLog.java:62)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)
+	at com.perfecto.sample.steps.StepsBackLog.user_select_apple_I_phone_gold(StepsBackLog.java:59)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+Caused by: java.lang.RuntimeException: Failed to execute command touch swipe: Error parsing function &apos;touch swipe&apos;, &apos;duration&apos; must be within range: 0 - 10, actual value was &apos;2000&apos;.
+	at com.perfectomobile.selenium.MobileEntity.processCommonResponse(MobileEntity.java:102)
+	at com.perfectomobile.selenium.MobileDevice.processResponse(MobileDevice.java:525)
+	at com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:68)
+	at com.perfectomobile.selenium.MobileEntity.executeDataCommand(MobileEntity.java:61)
+	at com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:596)
+	at com.perfectomobile.selenium.MobileDevice.executeGenericCommand(MobileDevice.java:55)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:111)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.executeGenericCommand(ExecuteScript.java:71)
+	at com.perfectomobile.selenium.server.appium.ExecuteScript.mobileCall(ExecuteScript.java:40)
+	at com.perfectomobile.selenium.server.MobileWebDriverHandler.call(MobileWebDriverHandler.java:23)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:188)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>41</td>
+<td>com.qmetry.qaf.automation.step.client.Scenario@3e8</td></tr>
+</table><p>
+</body>
+</html>

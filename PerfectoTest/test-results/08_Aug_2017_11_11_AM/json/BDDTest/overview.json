@@ -1,0 +1,48 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 0,
+  "skip": 1,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "appPackage": "com.flipkart.android",
+      "deviceName": "3219D3B1",
+      "password": "Infostretch1",
+      "autoLaunch": true,
+      "driverClass": "io.appium.java_client.android.AndroidDriver",
+      "automationName": "Appium",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "platformName": "Android",
+      "user": "is_user2@infostretch.com",
+      "cssSelectorsEnabled": true,
+      "applicationName": "Flipkart",
+      "autoAcceptAlerts": true
+    },
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "resources": "resources/android"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_111",
+      "os.arch": "amd64",
+      "host": "ICPL11493",
+      "os.name": "Windows 8",
+      "user.name": "biswa.senapati",
+      "os.version": "6.2"
+    }
+  },
+  "startTime": 1502170976438,
+  "endTime": 1502170976501
+}

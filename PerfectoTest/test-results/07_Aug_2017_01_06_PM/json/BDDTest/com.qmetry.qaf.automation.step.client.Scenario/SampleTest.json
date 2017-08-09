@@ -1,0 +1,103 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "enter_preoduct_name_to_search_box",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@class='android.widget.EditText'], using=xpath}"
+          ],
+          "result": "[id: 0]",
+          "subLogs": [],
+          "duration": 3249
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class='android.widget.EditText'], using=xpath}"
+          ],
+          "result": "id: 1",
+          "subLogs": [],
+          "duration": 510
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //*[@class='android.widget.EditText']",
+            "{\"id\":\"1\",\"value\":[\"apple iphone\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 3647
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@class='android.widget.EditText'], using=xpath}"
+          ],
+          "result": "id: 2",
+          "subLogs": [],
+          "duration": 482
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=2}"
+          ],
+          "result": "Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11493', ip: '10.11.31.109', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.amazon.mShop.android, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, deviceName=632E9899, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=Amazon, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579, webdriver.remote.sessionid=907198e4-4ba2-4865-a0f6-dc5d08c0f45f, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 907198e4-4ba2-4865-a0f6-dc5d08c0f45f",
+          "subLogs": [],
+          "duration": 850
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i open application",
+      "type": "TestStepPass",
+      "duration": 17404,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user enter preoduct name to search box",
+      "type": "TestStepFail",
+      "screenshot": "../img/SampleTest_1u4n52d5n2r0323090.png",
+      "duration": 11229,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "page open",
+          "type": "Info",
+          "screenshot": "../img/SampleTest_au99qplkn28d23089.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11493', ip: '10.11.31.109', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.amazon.mShop.android, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, deviceName=632E9899, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=Amazon, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579, webdriver.remote.sessionid=907198e4-4ba2-4865-a0f6-dc5d08c0f45f, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 907198e4-4ba2-4865-a0f6-dc5d08c0f45f",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.WebDriverException: Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11493', ip: '10.11.31.109', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver\nCapabilities [{appPackage=com.amazon.mShop.android, reportPdfUrl=https://partners.reporting.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, deviceName=632E9899, platform=ANY, password=, driverClass=io.appium.java_client.android.AndroidDriver, automationName=Appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, takesScreenshot=true, javascriptEnabled=true, platformName=Android, applicationName=Amazon, rotatable=true, testGridReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, entityType=appium_driver, serverConnector=, securityToken=, executionId=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579, webdriver.remote.sessionid=907198e4-4ba2-4865-a0f6-dc5d08c0f45f, autoLaunch=true, locationContextEnabled=true, scriptName=RemoteWebDriver, reportKey=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579, windTunnelReportUrl=https://partners.reporting.perfectomobile.com?externalId[0]=is_user2@infostretch.com_RemoteWebDriver_17-08-07_07_37_14_6579&_timestamp[0]=1502091434565, user=, cssSelectorsEnabled=true, autoAcceptAlerts=true}]\nSession ID: 907198e4-4ba2-4865-a0f6-dc5d08c0f45f\r\n\tat .When user enter preoduct name to search box(scenarios/suite1.bdd:7)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.execute(QAFExtendedWebDriver.java:234)\r\n\tat org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)\r\n\tat org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)\r\n\tat org.openqa.selenium.interactions.internal.MouseAction.moveToLocation(MouseAction.java:59)\r\n\tat org.openqa.selenium.interactions.ClickAction.perform(ClickAction.java:36)\r\n\tat org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)\r\n\tat com.perfecto.sample.steps.StepsBackLog.enter_preoduct_name_to_search_box_aroundBody2(StepsBackLog.java:40)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.perfecto.sample.steps.StepsBackLog.enter_preoduct_name_to_search_box(StepsBackLog.java:33)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\nCaused by: java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.events.internal.EventFiringMouse.mouseMove(EventFiringMouse.java:58)\r\n\tat org.openqa.selenium.remote.server.handler.interactions.MouseMoveToLocation.call(MouseMoveToLocation.java:59)\r\n\tat org.openqa.selenium.remote.server.handler.interactions.MouseMoveToLocation.call(MouseMoveToLocation.java:32)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat org.openqa.selenium.remote.server.MobileDefaultSession$1.run(MobileDefaultSession.java:188)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\n"
+}

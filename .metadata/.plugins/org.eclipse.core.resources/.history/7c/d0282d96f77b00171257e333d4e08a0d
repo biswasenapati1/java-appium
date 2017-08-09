@@ -1,0 +1,59 @@
+/**
+ * 
+ */
+package com.perfecto.sample.steps;
+
+import org.openqa.selenium.Keys;
+import com.perfecto.sample.test.flipkartHomeTestPage;
+import com.perfecto.sample.utils.PerfectoUtilities;
+import com.qmetry.qaf.automation.core.ConfigurationManager;
+import com.qmetry.qaf.automation.step.QAFTestStep;
+import com.qmetry.qaf.automation.util.Reporter;
+
+/**
+ * @author biswa.senapati
+ *
+ */
+public class StepsBackLog extends flipkartHomeTestPage {
+
+	/**
+	 * Auto-generated code snippet by QMetry Automation Framework.
+	 */
+	@QAFTestStep(description = "i open application")
+	public void iOpenApplication() {
+		// TODO: remove NotYetImplementedException and call test steps
+		PerfectoUtilities.openApplication(ConfigurationManager.getBundle().getString("app.identifier"));
+	}
+
+	
+	@QAFTestStep(description="user enter preoduct name to search box")
+	public void enter_preoduct_name_to_search_box(){
+		getSearchBox().waitForPresent();
+		getSearchBox().clear();
+		getSearchBox().sendKeys("iphone");
+		//getSearchBox().click();
+		getSearchBox().sendKeys(Keys.ENTER);
+		Reporter.logWithScreenShot("page open");
+//		Actions act=new Actions(driver);
+//		act.click(getSearchBox());
+//		Action action  = act.build();
+//		action.perform();
+//		//act.moveToElement(getSearchBox()).sendKeys(Keys.ENTER);
+		waitForPageToLoad();
+		
+		
+	}
+
+	
+	@QAFTestStep(description="user able to see all the list of mobiles")
+	public void list_of_mobiles(){
+		int size=getListOfMobiles().size();
+		Reporter.logWithScreenShot(""+size);
+		for(int i=0;i<size;i++)
+		{
+			
+			Reporter.log(getListOfMobiles().get(i).getText());
+		}
+	}
+
+}

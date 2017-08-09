@@ -1,0 +1,17 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+	Given i open application
+	When user enter preoduct name to search box
+	And user able to see all the list of mobiles
+	And user select apple I phone gold
+	And user Add the product to the cart
+	Then verify product is added to the cart
+	When user remove the product
+	Then verify the cart is empty and product remove sucessfully
+	And user close Application sucessfully
+	
+	
+END

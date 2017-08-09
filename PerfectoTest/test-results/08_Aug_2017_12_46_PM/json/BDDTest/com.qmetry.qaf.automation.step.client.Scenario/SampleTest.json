@@ -1,0 +1,261 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "iOpenApplication",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "enter_preoduct_name_to_search_box",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 641
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 531
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 516
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 538
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 532
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 531
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 828
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 531
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 516
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 719
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 422
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 515
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 516
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 516
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 531
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 406
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 516
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//*[@resource-id=\"com.flipkart.android:id/search_widget_textbox\"], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 1447
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And user able to see all the list of mobiles",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user select apple I phone gold",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given i open application",
+      "type": "TestStepPass",
+      "duration": 20901,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user enter preoduct name to search box",
+      "type": "TestStepFail",
+      "screenshot": "../img/SampleTest_kfrf2lmwz2at4966.png",
+      "duration": 30721,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Timed out after 30 seconds: Wait time out for search item to be present\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11493', ip: '10.11.31.109', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: unknown",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user able to see all the list of mobiles",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user select apple I phone gold",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds: Wait time out for search item to be present\nBuild info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'\nSystem info: host: 'ICPL11493', ip: '10.11.31.109', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'\nDriver info: driver.version: unknown\r\n\tat .When user enter preoduct name to search box(scenarios/suite1.bdd:7)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.waitForPresent(QAFExtendedWebElement.java:499)\r\n\tat com.perfecto.sample.steps.StepsBackLog.enter_preoduct_name_to_search_box_aroundBody2(StepsBackLog.java:32)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.perfecto.sample.steps.StepsBackLog.enter_preoduct_name_to_search_box(StepsBackLog.java:31)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}
